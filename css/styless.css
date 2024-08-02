@@ -1,0 +1,94 @@
+body {
+    background-image: url("/assets/download.jpg");
+
+    
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    ;
+}
+main {
+    display: flex;
+    
+}
+.Logo {
+    width: 50rem ;
+      
+} 
+h1 {
+    
+    font-family: "Open Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.779);
+    font-weight: 800;
+    margin-top: 2rem;
+    font-size: 4.5rem;
+    
+}
+h2 {
+    letter-spacing: 0.3rem;
+
+    font-size: 2.5rem;
+    font-family: "Open Sans", sans-serif;   
+    font-weight: 800;
+    color: rgb(96, 151, 48);
+}
+
+.FirstColum {
+    padding: 1rem 2rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.Contact {
+    display: flex;
+    justify-content: end;
+    margin-right: 1.2rem;
+    margin-top: 12rem;
+    
+    
+}
+.italic {
+    font-family: "Playwrite BE VLG", cursive;
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 1rem;
+    color: green;
+}
+.SocialMidia {
+    display: flex;
+}
+.SocialMidia P{
+    font-family: "Open Sans", sans-serif;  
+    font-weight: 600;
+    font-size: 2rem;
+    margin-right: 1.2rem;
+}
+.adress {
+    display: flex;
+    justify-content: end;
+}
+.adress p{
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 300;
+    
+}
+.Whats {
+    height: 2rem;
+    width: 2rem;
+    margin-right:0.7rem;
+}
+.Insta {
+    height: 2rem;
+
+    width: 2rem;
+}
+.SecondColum {
+    
+    display:flex ;
+    
+}
+.SecondColum__img {
+    width: 35rem;
+}
