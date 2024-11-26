@@ -29,6 +29,78 @@ header .container{
     height: 50px;
 
 }
+.btn_social { 
+	padding: 0.5rem;
+	margin:auto; 
+}
+
+.btn_social ul  { 
+
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+}
+
+.btn_social ul li  { 
+
+	position:relative; 
+	background:#555555; 
+	list-style:none; 
+	float:left; 
+	margin:0.3rem; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1rem; 
+	text-align:center; 
+}
+.btn_social li{
+    display: flex;
+    align-items: center;
+}
+
+.btn_social ul li a  { 
+
+	width:3rem; 
+	height:2rem; 
+	line-height:2rem; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+
+}
+.btn_social ul{
+	margin: auto;
+	padding: 0;
+}
+
+.btn_social a{
+    padding-top: 10px;
+}
+.btn_social ul li::before { 
+
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:rgb(40, 121, 76); 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:#555555; }
+.bi{
+    
+    font-size: 25px;
+   
+}
 nav {
     float: right;
     
@@ -53,16 +125,8 @@ nav ul li a {
 nav a{
     text-align: center;
 }
-nav img{
-    width: 45px;
 
-}
-nav img:hover{
-    transition: 0.5s linear;
-    width: 52px;
-    border-radius: 36px;
-    box-shadow: 2px 2px 2px #1b5e20
-}
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -258,25 +322,30 @@ footer .container div h3 {
     float: none;
 }
 
-footer ul {
-list-style: none;
-padding: 0;
+
+
+.nav__footer ul li::before { 
+
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:rgb(255, 255, 255); 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
 }
 
-footer ul li {
-margin-bottom: 10px;
-}
 
 footer a {
 color: white;
 text-decoration: none;
 }
 
-footer nav img:hover {    
 
-box-shadow: 2px 2px 2px #ffffff
-
-}
 
 .footer-bottom {
     text-align: center;
@@ -397,11 +466,11 @@ footer .container div {
 footer p {
     font-size: 14px;
 }
-.nav__footer ul{
+.nav__footer {
     display: flex;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
 }
+
 .nav__footer li {
     margin: 10px 5px;
 }
