@@ -1,94 +1,413 @@
 body {
-    background-image: url("/assets/download.jpg");
-
-    
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    ;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+    width: 100%;
+    height: 10%;
 }
-main {
-    display: flex;
+header .container{
+    height: 90%;
+}
+.container {
+    width: 90%;
+    
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 12px 0 0 0;
+}
+.logo {
+    float: left;
     
 }
-.Logo {
-    width: 50rem ;
-      
-} 
-h1 {
-    
-    font-family: "Open Sans", sans-serif;
-    color: rgba(0, 0, 0, 0.779);
-    font-weight: 800;
-    margin-top: 2rem;
-    font-size: 4.5rem;
-    
-}
-h2 {
-    letter-spacing: 0.3rem;
+.logo img {
+    width: 220px;
+    height: 50px;
 
-    font-size: 2.5rem;
-    font-family: "Open Sans", sans-serif;   
-    font-weight: 800;
-    color: rgb(96, 151, 48);
 }
+nav {
+    float: right;
+    
+}
+nav ul {
+    list-style: none;
+    margin: 12 12 0 5;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a {
+    color: rgb(40, 121, 76);;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a{
+    text-align: center;
+}
+nav img{
+    width: 45px;
 
-.FirstColum {
-    padding: 1rem 2rem 2rem 3rem;
+}
+nav img:hover{
+    transition: 0.5s linear;
+    width: 52px;
+    border-radius: 36px;
+    box-shadow: 2px 2px 2px #1b5e20
+}
+.hero {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: url('/assets/WhatsApp\ Image\ 2024-11-01\ at\ 12.56.07.jpeg') no-repeat center center/cover;
+    color: white;
+    padding: 40px ;
+    height: 50vh;
 }
-.Contact {
+.hero-content {
+    width: 100%;
     display: flex;
-    justify-content: end;
-    margin-right: 1.2rem;
-    margin-top: 12rem;
-    
-    
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 40px 0;
 }
-.italic {
-    font-family: "Playwrite BE VLG", cursive;
-    font-style: italic;
-    font-weight: 400;
-    margin-left: 1rem;
-    color: green;
-}
-.SocialMidia {
-    display: flex;
-}
-.SocialMidia P{
-    font-family: "Open Sans", sans-serif;  
-    font-weight: 600;
-    font-size: 2rem;
-    margin-right: 1.2rem;
-}
-.adress {
-    display: flex;
-    justify-content: end;
-}
-.adress p{
-    font-family: "Open Sans", sans-serif; 
-    font-weight: 300;
-    
-}
-.Whats {
-    height: 2rem;
-    width: 2rem;
-    margin-right:0.7rem;
-}
-.Insta {
-    height: 2rem;
 
-    width: 2rem;
+.hero-top {
+    text-align: left;
+    margin-left: 40px;
 }
-.SecondColum {
+
+.hero-bottom {
+    text-align: right;
+    align-self: flex-end;
+    margin-right: 40px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin: 0;
+    font-family: "Block Berthold Regular";
+}
+
+.hero p {
+    font-size: 22px;
+    margin: 0;
+    font-family: "Block Berthold Regular";
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 5px;
+    font-family: "Block Berthold Regular";
+}
+
+.hero h3 {
+    font-size: 25px;
+    margin: 0;
+    font-family: "Block Berthold Regular";
+}
+.section {
+    padding: 30px 0;
+}
+.section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.section p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.cards {
+    display: flex;
     
-    display:flex ;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    width: 30%;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 300px; 
+}
+.card span {
+ font-size: 28px;   
+}
+.card img {
+    height: 50px;
+    margin-bottom: 20px;
+}
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.card a {
+    color: rgb(40, 121, 76);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.separator {
+width: 100%;
+height: 2px;
+background-color: rgb(40, 121, 76); 
+margin: 40px 0; 
+
+}
+.about-us {
+    margin: 10px 0px 20px 0px;
+    background-color: rgb(40, 121, 76);
+}
+.about-us  h2{
+    text-align: justify;
+    color: white;
+    text-align: center;
     
 }
-.SecondColum__img {
-    width: 35rem;
+.about-us p{
+    text-align: justify;
+    color: white;
+}
+
+.call-to-action {
+    background: url('/assets/2banner.jpeg') no-repeat center center/cover;
+    
+    color: white;
+    padding: 160px 0;
+    text-align: center;
+    min-height: 275px;
+    display: flex;
+    align-items: end;
+    margin-top: 20px;
+ }
+ 
+ .call-to-action h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: "Block Berthold Regular";
+    -webkit-text-stroke-width:0.5px ;
+    -webkit-text-stroke-color:black;
+ }
+
+
+ 
+ 
+ .cta-button {
+    display: inline-block;
+    background-color: #2E7D32;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+ }
+ 
+ .cta-button:hover {
+    background-color: #1b5e20;
+ }
+
+
+footer {
+    background:rgb(40, 121, 76);
+    color: white;
+    padding: 10px 0;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+footer .container div {
+    width: 30%;
+}
+footer .container div h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.location span{
+    font-size: 15px;
+}
+
+.location:hover {
+    font-size: 18px;
+    text-decoration: underline;
+    
+}
+
+
+
+.nav__footer {
+    float: none;
+}
+
+footer ul {
+list-style: none;
+padding: 0;
+}
+
+footer ul li {
+margin-bottom: 10px;
+}
+
+footer a {
+color: white;
+text-decoration: none;
+}
+
+footer nav img:hover {    
+
+box-shadow: 2px 2px 2px #ffffff
+
+}
+
+.footer-bottom {
+    text-align: center;
+    
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+.section {
+    padding: 20px 0 0 0 ;
+}
+header nav {
+    display: none;
+}
+header .container{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 95%;
+    padding: 0;
+}
+.logo img {
+    margin: 12px 0;
+}
+
+
+.hero {
+    padding: 25px 15px;
+    background-position: center;
+    
+}
+.hero-content {
+    padding: 0;
+}
+.hero-top {
+    text-align: left;
+    margin-left: 5px;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.hero-bottom {
+    text-align: left;
+    align-self: flex-start;
+    margin-right: 5px;
+}
+
+.hero h1 {
+    font-size: 26px;
+}
+.hero h2 {
+    font-size: 24px;
+}
+.hero p {
+    font-size: 18px;
+}
+.hero h3{
+    font-size:22px ;
+}
+
+.cards {
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card {
+    width: 90%;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+
+
+.section h2 {
+    font-size: 26px;
+}
+.section p {
+    font-size: 16px;
+    padding: 0 10px;
+}
+.about-us {
+    padding: 10px;
+    margin: 0px;
+}
+.about-us  h2{
+    font-size: 22px;
+}
+
+
+.call-to-action {
+    padding: 0px;
+    background-attachment: scroll;
+    background-size: contain;
+    display: flex;
+    align-items: end;
+    margin-top: 0;
+    
+}
+.call-to-action h2{
+    font-size: 22px;
+    padding: 15px;
+    -webkit-text-stroke-width:0.5px ;
+    -webkit-text-stroke-color:black;
+}
+
+
+footer .container {
+    flex-direction: column;
+    align-items: center;
+}
+footer .container div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer p {
+    font-size: 14px;
+}
+.nav__footer ul{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.nav__footer li {
+    margin: 10px 5px;
+}
+
+
+
+
+
 }
