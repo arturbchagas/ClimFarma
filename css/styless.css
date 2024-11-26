@@ -311,8 +311,8 @@ footer .container div h3 {
 }
 
 .location:hover {
-    font-size: 18px;
     text-decoration: underline;
+    color: black;
     
 }
 
